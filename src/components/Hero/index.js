@@ -49,7 +49,7 @@ const index = () => {
                                 <Image
                                     width={772}
                                     height={710}
-                                    src="/media/img/hero-right.png"
+                                    src="/media/img/hero-right.webp"
                                     alt="Keripik Singkong Dona Baturaja"
                                 />
                             </Zoom>
