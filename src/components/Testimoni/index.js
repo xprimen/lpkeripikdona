@@ -10,11 +10,11 @@ const index = () => {
                 </Fade>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-4">
                     <Zoom>
-                        {[...Array(6)].map((x, i) => {
+                        {[...Array(13)].map((x, i) => {
                             let j = i + 1;
                             return (<Image
                                 key={i}
-                                src={`/media/img/testimoni${j}.jpg`}
+                                src={`/media/img/testimoni (${j}).jpeg`}
                                 width={221}
                                 height={463}
                                 layout="responsive"
