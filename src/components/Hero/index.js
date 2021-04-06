@@ -16,18 +16,19 @@ const index = () => {
                                     width={251}
                                     height={190}
                                     layout="responsive"
+                                    alt="Keripik Singkong Dona Baturaja"
                                 />
                             </div>
                         </Fade>
                         <Fade left delay={100}>
                             <div className="inline-flex items-center justify-start mb-4 md:mb-2">
-                                <h className="text-5xl sm:text-6xl md:text-4xl lg:text-7xl px-5 py-2.5 bg-gray-100 text-yellow-500 font-bold text-shadow-md">Keripik Dona</h>
+                                <h2 className="text-5xl sm:text-6xl md:text-4xl lg:text-7xl px-5 py-2.5 bg-gray-100 text-yellow-500 font-bold text-shadow-md">Keripik Dona</h2>
                             </div>
                         </Fade>
                         <Fade left delay={200}>
-                            <p className="text-4xl md:text-2xl lg:text-3xl text-white font-bold mb-4 md:mb-2">
+                            <h1 className="text-4xl md:text-2xl lg:text-3xl text-white font-bold mb-4 md:mb-2">
                                 Keripik Singkong<br /> Khas Baturaja
-                                </p>
+                                </h1>
                         </Fade>
                         <Fade left delay={300}>
                             <div className="inline-flex items-center justify-start mb-4 md:mb-2">

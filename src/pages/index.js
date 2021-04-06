@@ -1,17 +1,17 @@
-import Head from 'next/head'
 import Hero from '../components/Hero'
+import Info from '../components/Info'
+import Legalitas from '../components/Legalitas'
+import Meta from '../components/Meta'
+import Order from '../components/Order'
 import Profile from '../components/Profile'
 import Testimoni from '../components/Testimoni'
-import Order from '../components/Order'
-import Legalitas from '../components/Legalitas'
-import Info from '../components/Info'
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Keripik Dona Baturaja</title>
-      </Head>
+      <Meta
+        title="Keripik Dona Baturaja"
+      />
       <Hero />
       <Profile />
       <Testimoni />

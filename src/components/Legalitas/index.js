@@ -16,7 +16,7 @@ const index = () => {
                                     <SVGOss className="hover:text-red-800" />
                                 </div>
                             </div>
-                            <h4 className="text-xl text-center mt-4">Terdaftar Lembaga OSS</h4>
+                            <h3 className="text-xl text-center mt-4">Terdaftar Lembaga OSS</h3>
                         </div>
                         <div className="card rounded-lg shadow-md bg-gray-200 py-6 px-8 grid justify-center">
                             <div className="flex justify-center">
@@ -24,7 +24,7 @@ const index = () => {
                                     <SVGPirt />
                                 </div>
                             </div>
-                            <h4 className="text-xl text-center mt-4">Terdaftar PIRT</h4>
+                            <h3 className="text-xl text-center mt-4">Terdaftar PIRT</h3>
                         </div>
                         <div className="card rounded-lg shadow-md bg-gray-200 py-6 px-8 grid justify-center">
                             <div className="flex justify-center">
@@ -32,7 +32,7 @@ const index = () => {
                                     <SVGBank />
                                 </div>
                             </div>
-                            <h4 className="text-xl text-center mt-4">Mitra Binaan Bank Sumsel Babel</h4>
+                            <h3 className="text-xl text-center mt-4">Mitra Binaan Bank Sumsel Babel</h3>
                         </div>
                     </Zoom>
                 </div>
