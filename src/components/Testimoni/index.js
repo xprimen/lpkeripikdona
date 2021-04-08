@@ -10,13 +10,30 @@ const index = () => {
                 </Fade>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-4">
                     <Zoom>
-                        {[...Array(13)].map((x, i) => {
+                        {[...Array(14)].map((x, i) => {
                             let j = i + 1;
                             return (<Image
                                 key={i}
                                 src={`/media/img/testimoni (${j}).jpeg`}
                                 width={221}
                                 height={463}
+                                layout="responsive"
+                                className="rounded-lg"
+                                alt="Keripik Singkong Dona Baturaja"
+                            />)
+                        }
+                        )}
+                    </Zoom>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-4">
+                    <Zoom>
+                        {[...Array(6)].map((x, i) => {
+                            let j = i + 15;
+                            return (<Image
+                                key={i}
+                                src={`/media/img/testimoni (${j}).jpeg`}
+                                width={1080}
+                                height={1080}
                                 layout="responsive"
                                 className="rounded-lg"
                                 alt="Keripik Singkong Dona Baturaja"
